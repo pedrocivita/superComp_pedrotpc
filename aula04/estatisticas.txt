@@ -1,0 +1,4 @@
+Número total de linhas: 5
+Número total de palavras: 5
+Número médio de palavras por linha: 1
+Palavra mais frequente: dergsehw (frequência: 1)
