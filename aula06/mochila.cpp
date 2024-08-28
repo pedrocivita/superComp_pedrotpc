@@ -60,7 +60,7 @@ int main() {
     int capacidade;
 
     // Altere o nome do arquivo para testar os diferentes casos de entrada
-    std::string nomeArquivo = "in50.txt";  // Pode ser "in1.txt", "in2.txt", "in3.txt", ou "in4.txt"
+    std::string nomeArquivo = "in4.txt";  // Pode ser "in1.txt", "in2.txt", "in3.txt", ou "in4.txt"
     
     lerEntrada(nomeArquivo, itens, capacidade);
 
