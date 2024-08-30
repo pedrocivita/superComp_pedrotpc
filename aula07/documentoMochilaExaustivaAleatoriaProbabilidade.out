@@ -1,0 +1,16 @@
+Comparação de Busca Exaustiva e Heurísticas para o Problema da Mochila
+ 
+================ Busca Exaustiva ================
+Executando Busca Exaustiva com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor máximo alcançado: 601 dinheiros
+Peso ocupado: 373 Kg
+Tempo de execução: 0.820098 segundos
+ 
+Executando Busca Exaustiva com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor máximo alcançado: 870 dinheiros
+Peso ocupado: 239 Kg
+Tempo de execução: 52.3323 segundos
+ 
+Executando Busca Exaustiva com Entrada_3.txt:
