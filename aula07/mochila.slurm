@@ -18,9 +18,9 @@ echo "Executando Busca Exaustiva com Entrada_2.txt:"
 ./mochila Entrada_2.txt
 echo " "
 
-echo "Executando Busca Exaustiva com Entrada_3.txt:"
-./mochila Entrada_3.txt
-echo " "
+# echo "Executando Busca Exaustiva com Entrada_3.txt:"
+# ./mochila Entrada_3.txt
+#echo " "
 
 echo "Executando Busca Exaustiva com Entrada_4.txt:"
 ./mochila Entrada_4.txt

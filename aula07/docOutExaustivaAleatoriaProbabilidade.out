@@ -1,0 +1,224 @@
+Comparação de Busca Exaustiva e Heurísticas para o Problema da Mochila
+ 
+================ Busca Exaustiva ================
+Executando Busca Exaustiva com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor máximo alcançado: 601 dinheiros
+Peso ocupado: 373 Kg
+Tempo de execução: 1.40465 segundos
+ 
+Executando Busca Exaustiva com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor máximo alcançado: 870 dinheiros
+Peso ocupado: 239 Kg
+Tempo de execução: 89.4821 segundos
+ 
+Executando Busca Exaustiva com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor máximo alcançado: 648 dinheiros
+Peso ocupado: 600 Kg
+Tempo de execução: 9.4271 segundos
+ 
+================ Heurística Embaralhada ================
+Execução 1 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 190 dinheiros
+Tempo de execução da heurística: 1.6116e-05 segundos
+ 
+Execução 2 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 326 dinheiros
+Tempo de execução da heurística: 1.5616e-05 segundos
+ 
+Execução 3 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 252 dinheiros
+Tempo de execução da heurística: 1.5625e-05 segundos
+ 
+Execução 4 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 202 dinheiros
+Tempo de execução da heurística: 1.552e-05 segundos
+ 
+Execução 5 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 217 dinheiros
+Tempo de execução da heurística: 1.54e-05 segundos
+ 
+Execução 1 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 207 dinheiros
+Tempo de execução da heurística: 1.6542e-05 segundos
+ 
+Execução 2 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 147 dinheiros
+Tempo de execução da heurística: 1.6126e-05 segundos
+ 
+Execução 3 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 97 dinheiros
+Tempo de execução da heurística: 1.6392e-05 segundos
+ 
+Execução 4 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 214 dinheiros
+Tempo de execução da heurística: 1.6202e-05 segundos
+ 
+Execução 5 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 128 dinheiros
+Tempo de execução da heurística: 1.5453e-05 segundos
+ 
+Execução 1 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 3320 dinheiros
+Tempo de execução da heurística: 1.6023e-05 segundos
+ 
+Execução 2 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 3320 dinheiros
+Tempo de execução da heurística: 1.6261e-05 segundos
+ 
+Execução 3 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 3320 dinheiros
+Tempo de execução da heurística: 1.8447e-05 segundos
+ 
+Execução 4 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 3320 dinheiros
+Tempo de execução da heurística: 1.774e-05 segundos
+ 
+Execução 5 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 3320 dinheiros
+Tempo de execução da heurística: 1.91e-05 segundos
+ 
+Execução 1 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 502 dinheiros
+Tempo de execução da heurística: 1.6454e-05 segundos
+ 
+Execução 2 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 445 dinheiros
+Tempo de execução da heurística: 1.6855e-05 segundos
+ 
+Execução 3 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 553 dinheiros
+Tempo de execução da heurística: 1.4967e-05 segundos
+ 
+Execução 4 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 431 dinheiros
+Tempo de execução da heurística: 1.519e-05 segundos
+ 
+Execução 5 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 438 dinheiros
+Tempo de execução da heurística: 1.7514e-05 segundos
+ 
+================ Heurística Probabilística ================
+Execução 1 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 275 dinheiros
+Tempo de execução da heurística: 1.9347e-05 segundos
+ 
+Execução 2 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 308 dinheiros
+Tempo de execução da heurística: 2.0082e-05 segundos
+ 
+Execução 3 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 235 dinheiros
+Tempo de execução da heurística: 1.942e-05 segundos
+ 
+Execução 4 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 327 dinheiros
+Tempo de execução da heurística: 1.9018e-05 segundos
+ 
+Execução 5 com Entrada_1.txt:
+Arquivo: Entrada_1.txt
+Valor alcançado pela heurística: 280 dinheiros
+Tempo de execução da heurística: 2.1321e-05 segundos
+ 
+Execução 1 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 236 dinheiros
+Tempo de execução da heurística: 2.1466e-05 segundos
+ 
+Execução 2 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 260 dinheiros
+Tempo de execução da heurística: 2.4098e-05 segundos
+ 
+Execução 3 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 275 dinheiros
+Tempo de execução da heurística: 2.582e-05 segundos
+ 
+Execução 4 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 243 dinheiros
+Tempo de execução da heurística: 2.1137e-05 segundos
+ 
+Execução 5 com Entrada_2.txt:
+Arquivo: Entrada_2.txt
+Valor alcançado pela heurística: 202 dinheiros
+Tempo de execução da heurística: 2.2079e-05 segundos
+ 
+Execução 1 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 1746 dinheiros
+Tempo de execução da heurística: 2.0213e-05 segundos
+ 
+Execução 2 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 1517 dinheiros
+Tempo de execução da heurística: 2.0853e-05 segundos
+ 
+Execução 3 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 2188 dinheiros
+Tempo de execução da heurística: 2.0173e-05 segundos
+ 
+Execução 4 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 1706 dinheiros
+Tempo de execução da heurística: 1.994e-05 segundos
+ 
+Execução 5 com Entrada_3.txt:
+Arquivo: Entrada_3.txt
+Valor alcançado pela heurística: 2123 dinheiros
+Tempo de execução da heurística: 2.0998e-05 segundos
+ 
+Execução 1 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 427 dinheiros
+Tempo de execução da heurística: 1.796e-05 segundos
+ 
+Execução 2 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 381 dinheiros
+Tempo de execução da heurística: 1.7404e-05 segundos
+ 
+Execução 3 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 440 dinheiros
+Tempo de execução da heurística: 1.7461e-05 segundos
+ 
+Execução 4 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 353 dinheiros
+Tempo de execução da heurística: 1.7749e-05 segundos
+ 
+Execução 5 com Entrada_4.txt:
+Arquivo: Entrada_4.txt
+Valor alcançado pela heurística: 440 dinheiros
+Tempo de execução da heurística: 1.8832e-05 segundos
+ 
+================ Fim das Execuções ================

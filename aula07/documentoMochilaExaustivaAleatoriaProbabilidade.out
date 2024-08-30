@@ -14,3 +14,4 @@ Peso ocupado: 239 Kg
 Tempo de execução: 52.3323 segundos
  
 Executando Busca Exaustiva com Entrada_3.txt:
+slurmstepd-compute01: error: *** JOB 3176 ON compute01 CANCELLED AT 2024-08-30T09:23:57 DUE TO TIME LIMIT ***
