@@ -1,0 +1,1114 @@
+Rodando o Problema da Mochila com Hill Climbing
+ 
+================ Hill Climbing ================
+Execução 1 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.7e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.5e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+ 
+Execução 2 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.7e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.5e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+ 
+Execução 3 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.6e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+ 
+Execução 4 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 3.1e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.5e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+ 
+Execução 5 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.5e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+ 
+Execução 6 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.6e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+ 
+Execução 7 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.7e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.7e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+ 
+Execução 8 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.7e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.5e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+ 
+Execução 9 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+ 
+Execução 10 com Entrada_1.txt:
+Heurística Aleatória Execução 1: Valor = 409, Peso = 371, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 309, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 238, Peso = 372, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 292, Peso = 359, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 286, Peso = 366, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 286, Peso = 366, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 286, Peso = 366, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 24154, Peso = -2565, Tempo = 2.9e-05s
+Substituição de Objeto Execução 2: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 3: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 4: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 5: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 6: Valor = 24154, Peso = -2565, Tempo = 2.2e-05s
+Substituição de Objeto Execução 7: Valor = 24154, Peso = -2565, Tempo = 2.4e-05s
+Substituição de Objeto Execução 8: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 9: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Substituição de Objeto Execução 10: Valor = 24154, Peso = -2565, Tempo = 2.3e-05s
+Hill Climbing Execução 1: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 2: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 5: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 286, Peso = 366, Tempo = 0s
+Hill Climbing Execução 8: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 286, Peso = 366, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 286, Peso = 366, Tempo = 0s
+ 
+Execução 1 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 6e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 2 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.9e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 3 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 3e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 3e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 6e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 4 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 3e-06s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.8e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 6.1e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 5 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 3e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.8e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.9e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 6 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 3e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 6e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 6.1e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 7 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 4e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.9e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 8 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 3e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 5e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.4e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 6e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 9 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 3e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.9e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.8e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 6e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 10 com Entrada_2.txt:
+Heurística Aleatória Execução 1: Valor = 438, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 344, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 3: Valor = 159, Peso = 237, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 202, Peso = 239, Tempo = 3e-06s
+Heurística Aleatória Execução 5: Valor = 235, Peso = 239, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 235, Peso = 239, Tempo = 5e-06s
+Mochila Cheia Execução 4: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Mochila Cheia Execução 10: Valor = 235, Peso = 239, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 61551, Peso = -21890, Tempo = 5.9e-05s
+Substituição de Objeto Execução 2: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 3: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 4: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 5: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 6: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 7: Valor = 61551, Peso = -21890, Tempo = 5.7e-05s
+Substituição de Objeto Execução 8: Valor = 61551, Peso = -21890, Tempo = 5.9e-05s
+Substituição de Objeto Execução 9: Valor = 61551, Peso = -21890, Tempo = 5.6e-05s
+Substituição de Objeto Execução 10: Valor = 61551, Peso = -21890, Tempo = 5.5e-05s
+Hill Climbing Execução 1: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 5: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 235, Peso = 239, Tempo = 0s
+Hill Climbing Execução 9: Valor = 235, Peso = 239, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 235, Peso = 239, Tempo = 1e-06s
+ 
+Execução 1 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+ 
+Execução 2 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 1e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+ 
+Execução 3 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+ 
+Execução 4 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 3e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+ 
+Execução 5 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 2e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1.1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+ 
+Execução 6 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 2e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+ 
+Execução 7 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 2e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+ 
+Execução 8 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 2e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+ 
+Execução 9 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+ 
+Execução 10 com Entrada_3.txt:
+Heurística Aleatória Execução 1: Valor = 489, Peso = 599, Tempo = 2e-06s
+Heurística Aleatória Execução 2: Valor = 436, Peso = 600, Tempo = 1e-06s
+Heurística Aleatória Execução 3: Valor = 569, Peso = 596, Tempo = 1e-06s
+Heurística Aleatória Execução 4: Valor = 494, Peso = 595, Tempo = 1e-06s
+Heurística Aleatória Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 3: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 5: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Mochila Cheia Execução 8: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Mochila Cheia Execução 10: Valor = 476, Peso = 600, Tempo = 0s
+Substituição de Objeto Execução 1: Valor = 4576, Peso = 286, Tempo = 1e-05s
+Substituição de Objeto Execução 2: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 3: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 4: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 5: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 6: Valor = 4576, Peso = 286, Tempo = 9e-06s
+Substituição de Objeto Execução 7: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 8: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 9: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Substituição de Objeto Execução 10: Valor = 4576, Peso = 286, Tempo = 8e-06s
+Hill Climbing Execução 1: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 2: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 3: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 4: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 5: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 6: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 7: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 8: Valor = 476, Peso = 600, Tempo = 1e-06s
+Hill Climbing Execução 9: Valor = 476, Peso = 600, Tempo = 0s
+Hill Climbing Execução 10: Valor = 476, Peso = 600, Tempo = 1e-06s
+ 
+================ Fim das Execuções ================

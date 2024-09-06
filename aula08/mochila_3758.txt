@@ -1,0 +1,16 @@
+Rodando o Problema da Mochila com Hill Climbing
+ 
+================ Hill Climbing ================
+Execução 1 com Entrada_1.txt:
+Peso total antes da Mochila Cheia: 0
+Valor total antes da Mochila Cheia: 0
+Peso total depois da Mochila Cheia: 0
+Valor total depois da Mochila Cheia: 0
+Peso total depois da Substituição de Objeto: 0
+Valor total depois da Substituição de Objeto: 0
+Peso total depois do Hill Climbing: 0
+Valor total depois do Hill Climbing: 0
+Tempo de execução: 33.7473 segundos
+ 
+Execução 2 com Entrada_1.txt:
+slurmstepd-compute00: error: *** JOB 3758 ON compute00 CANCELLED AT 2024-09-06T12:44:17 ***

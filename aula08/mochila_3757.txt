@@ -1,0 +1,214 @@
+Rodando o Problema da Mochila com Hill Climbing
+ 
+================ Hill Climbing ================
+Execução 1 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0226638 segundos
+ 
+Execução 2 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0219663 segundos
+ 
+Execução 3 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.023529 segundos
+ 
+Execução 4 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0236557 segundos
+ 
+Execução 5 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0228839 segundos
+ 
+Execução 6 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0239684 segundos
+ 
+Execução 7 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0230413 segundos
+ 
+Execução 8 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0238319 segundos
+ 
+Execução 9 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0235896 segundos
+ 
+Execução 10 com Entrada_1.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0236035 segundos
+ 
+Execução 1 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0234219 segundos
+ 
+Execução 2 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0235639 segundos
+ 
+Execução 3 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0196359 segundos
+ 
+Execução 4 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0653432 segundos
+ 
+Execução 5 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0234132 segundos
+ 
+Execução 6 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0236903 segundos
+ 
+Execução 7 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0223101 segundos
+ 
+Execução 8 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0251672 segundos
+ 
+Execução 9 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0239283 segundos
+ 
+Execução 10 com Entrada_2.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0239673 segundos
+ 
+Execução 1 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.023426 segundos
+ 
+Execução 2 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.023446 segundos
+ 
+Execução 3 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0233847 segundos
+ 
+Execução 4 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0226967 segundos
+ 
+Execução 5 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0241386 segundos
+ 
+Execução 6 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0232858 segundos
+ 
+Execução 7 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0236608 segundos
+ 
+Execução 8 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0663845 segundos
+ 
+Execução 9 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0162511 segundos
+ 
+Execução 10 com Entrada_3.txt:
+Peso e valor iniciais: 0 0
+Valor após Mochila Cheia: 0
+Valor após Substituição de Objeto: 0
+Valor final após Hill Climbing: 0
+Tempo de execução: 0.0162322 segundos
+ 
+================ Fim das Execuções ================

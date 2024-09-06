@@ -1,0 +1,1114 @@
+Rodando o Problema da Mochila com Hill Climbing
+ 
+================ Hill Climbing ================
+Execução 1 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 2 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 7e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 1e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 3 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 1e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 3e-06s
+ 
+Execução 4 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 8e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 5 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 3e-06s
+ 
+Execução 6 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 7 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 3e-06s
+ 
+Execução 8 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 1.1e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 7e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 9 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 7e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 3e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 10 com Entrada_1.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 344, Peso Total = 333, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 309, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 211, Peso Total = 348, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 292, Peso Total = 359, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 286, Peso Total = 366, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 267, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 423, Peso Total = 375, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 335, Peso Total = 379, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 227, Peso Total = 378, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 310, Peso Total = 379, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 207, Peso Total = 376, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 279, Peso Total = 375, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 357, Peso Total = 368, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 183, Peso Total = 360, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 282, Peso Total = 376, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 398, Peso Total = 379, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 380, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 321, Peso Total = 359, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 297, Peso Total = 378, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 365, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 223, Peso Total = 380, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 198, Peso Total = 369, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 297, Peso Total = 368, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 287, Peso Total = 374, Tempo = 8e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 229, Peso Total = 379, Tempo = 8e-06s
+Hill Climbing, Execução 1: Valor = 260, Peso Total = 365, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 321, Peso Total = 379, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 208, Peso Total = 362, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 380, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 268, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 322, Peso Total = 376, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 313, Peso Total = 364, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 215, Peso Total = 370, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 254, Peso Total = 368, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 271, Peso Total = 377, Tempo = 2e-06s
+ 
+Execução 1 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 5e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 4e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 2 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.4e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 4e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 4e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 3 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 4e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 4 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 6e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 4e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 5 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 4e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 6 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.4e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 7 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 4e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 4e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 4e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 8 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 4e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.6e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 4e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 9 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.5e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 3e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 4e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 10 com Entrada_2.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 260, Peso Total = 201, Tempo = 3e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 247, Peso Total = 200, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 159, Peso Total = 237, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 86, Peso Total = 220, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 138, Peso Total = 200, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 334, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 456, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 344, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 356, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 464, Peso Total = 239, Tempo = 4e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 251, Peso Total = 239, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 412, Peso Total = 237, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 220, Peso Total = 238, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 306, Peso Total = 239, Tempo = 3e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 218, Peso Total = 236, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 356, Peso Total = 239, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 220, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 245, Peso Total = 238, Tempo = 1.7e-05s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 432, Peso Total = 235, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 202, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 342, Peso Total = 237, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 114, Peso Total = 239, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 302, Peso Total = 235, Tempo = 1.5e-05s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 430, Peso Total = 233, Tempo = 1.6e-05s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 203, Peso Total = 238, Tempo = 1.8e-05s
+Hill Climbing, Execução 1: Valor = 329, Peso Total = 232, Tempo = 4e-06s
+Hill Climbing, Execução 2: Valor = 270, Peso Total = 239, Tempo = 3e-06s
+Hill Climbing, Execução 3: Valor = 195, Peso Total = 238, Tempo = 3e-06s
+Hill Climbing, Execução 4: Valor = 394, Peso Total = 236, Tempo = 3e-06s
+Hill Climbing, Execução 5: Valor = 272, Peso Total = 237, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 212, Peso Total = 237, Tempo = 4e-06s
+Hill Climbing, Execução 7: Valor = 261, Peso Total = 232, Tempo = 3e-06s
+Hill Climbing, Execução 8: Valor = 232, Peso Total = 233, Tempo = 3e-06s
+Hill Climbing, Execução 9: Valor = 124, Peso Total = 235, Tempo = 3e-06s
+Hill Climbing, Execução 10: Valor = 211, Peso Total = 233, Tempo = 3e-06s
+ 
+Execução 1 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 4e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 1e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 2 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 3e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 1e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 3 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 9e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 4e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 1e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 1e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 4 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 3e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 3e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 1e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 1e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 1e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 5 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 4e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 1e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 6 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 4e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 1e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 1e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 1e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 7 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 5e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 4e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 1e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 1e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 8 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 3e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 3e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 1e-06s
+ 
+Execução 9 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 4e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 2e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 1e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 2e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 1e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 1e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+Execução 10 com Entrada_3.txt:
+Heurística Aleatória (Embaralhar e Preencher), Execução 1: Valor = 410, Peso Total = 578, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 2: Valor = 394, Peso Total = 575, Tempo = 2e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 3: Valor = 569, Peso Total = 596, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 4: Valor = 450, Peso Total = 535, Tempo = 1e-06s
+Heurística Aleatória (Embaralhar e Preencher), Execução 5: Valor = 425, Peso Total = 565, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 1: Valor = 540, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 2: Valor = 516, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 3: Valor = 419, Peso Total = 597, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 4: Valor = 548, Peso Total = 599, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 5: Valor = 550, Peso Total = 600, Tempo = 2e-06s
+Busca Local (Mochila Cheia), Execução 6: Valor = 470, Peso Total = 593, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 7: Valor = 529, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 8: Valor = 524, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 9: Valor = 555, Peso Total = 598, Tempo = 1e-06s
+Busca Local (Mochila Cheia), Execução 10: Valor = 461, Peso Total = 600, Tempo = 1e-06s
+Busca Local (Substituição de Objeto), Execução 1: Valor = 397, Peso Total = 593, Tempo = 6e-06s
+Busca Local (Substituição de Objeto), Execução 2: Valor = 525, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 3: Valor = 449, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 4: Valor = 532, Peso Total = 597, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 5: Valor = 394, Peso Total = 594, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 6: Valor = 522, Peso Total = 594, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 7: Valor = 458, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 8: Valor = 495, Peso Total = 598, Tempo = 3e-06s
+Busca Local (Substituição de Objeto), Execução 9: Valor = 459, Peso Total = 596, Tempo = 4e-06s
+Busca Local (Substituição de Objeto), Execução 10: Valor = 464, Peso Total = 599, Tempo = 3e-06s
+Hill Climbing, Execução 1: Valor = 443, Peso Total = 598, Tempo = 2e-06s
+Hill Climbing, Execução 2: Valor = 452, Peso Total = 593, Tempo = 1e-06s
+Hill Climbing, Execução 3: Valor = 486, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 4: Valor = 411, Peso Total = 597, Tempo = 2e-06s
+Hill Climbing, Execução 5: Valor = 459, Peso Total = 577, Tempo = 1e-06s
+Hill Climbing, Execução 6: Valor = 512, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 7: Valor = 346, Peso Total = 600, Tempo = 2e-06s
+Hill Climbing, Execução 8: Valor = 497, Peso Total = 598, Tempo = 1e-06s
+Hill Climbing, Execução 9: Valor = 458, Peso Total = 599, Tempo = 2e-06s
+Hill Climbing, Execução 10: Valor = 527, Peso Total = 579, Tempo = 2e-06s
+ 
+================ Fim das Execuções ================
