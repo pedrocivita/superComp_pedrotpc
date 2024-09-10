@@ -1,0 +1,40 @@
+Rodando o Problema da Mochila com mais_leve
+ 
+================ mais_leve ================
+Execução 1 com Entrada_1.txt:
+Heurística Mais Caro Primeiro: Valor = 431, Peso Total = 343, Tempo = 5.543e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 475, Peso Total = 364, Tempo = 5.18e-06 segundos
+ 
+Execução 2 com Entrada_1.txt:
+Heurística Mais Caro Primeiro: Valor = 431, Peso Total = 343, Tempo = 5.883e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 475, Peso Total = 364, Tempo = 5.18e-06 segundos
+ 
+Execução 3 com Entrada_1.txt:
+Heurística Mais Caro Primeiro: Valor = 431, Peso Total = 343, Tempo = 5.57e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 475, Peso Total = 364, Tempo = 5.512e-06 segundos
+ 
+Execução 1 com Entrada_2.txt:
+Heurística Mais Caro Primeiro: Valor = 390, Peso Total = 194, Tempo = 8.472e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 761, Peso Total = 237, Tempo = 7.918e-06 segundos
+ 
+Execução 2 com Entrada_2.txt:
+Heurística Mais Caro Primeiro: Valor = 390, Peso Total = 194, Tempo = 7.761e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 761, Peso Total = 237, Tempo = 7.169e-06 segundos
+ 
+Execução 3 com Entrada_2.txt:
+Heurística Mais Caro Primeiro: Valor = 390, Peso Total = 194, Tempo = 8.012e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 761, Peso Total = 237, Tempo = 7.144e-06 segundos
+ 
+Execução 1 com Entrada_3.txt:
+Heurística Mais Caro Primeiro: Valor = 516, Peso Total = 600, Tempo = 3.356e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 581, Peso Total = 562, Tempo = 3.305e-06 segundos
+ 
+Execução 2 com Entrada_3.txt:
+Heurística Mais Caro Primeiro: Valor = 516, Peso Total = 600, Tempo = 3.368e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 581, Peso Total = 562, Tempo = 3.458e-06 segundos
+ 
+Execução 3 com Entrada_3.txt:
+Heurística Mais Caro Primeiro: Valor = 516, Peso Total = 600, Tempo = 3.327e-06 segundos
+Heurística Mais Leve Primeiro: Valor = 581, Peso Total = 562, Tempo = 3.069e-06 segundos
+ 
+================ Fim das Execuções ================
