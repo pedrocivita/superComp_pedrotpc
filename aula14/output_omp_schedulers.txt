@@ -1,0 +1,2 @@
+Valor estimado de pi (otimizado): 3.14126
+Tempo de execução (otimizado): 0.470134 segundos

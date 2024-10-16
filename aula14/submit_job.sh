@@ -6,4 +6,4 @@
 #SBATCH --time=00:05:00
 #SBATCH --mem=1024
 
-./parte1
+./parte3
