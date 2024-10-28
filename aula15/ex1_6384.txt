@@ -1,0 +1,8 @@
+Thread Thread 01 diz: Olá diz: Oi
+
+Thread Thread 0 diz: Olá1 diz: Oi
+
+Thread 1 diz: Oi
+Thread Thread 1 diz: Oi0 diz: Olá
+
+Thread 0 diz: Olá

@@ -1,0 +1,20 @@
+Thread Thread 10 somou  somou 21, soma parcial: , soma parcial: 21
+Thread 3 somou 4, soma parcial: 4
+Thread 1 somou 2, soma parcial: 2
+Thread 2 somou 3, soma parcial: 3
+Thread 2 somou 3, soma parcial: 3
+
+Soma total: 10
+Thread 3 somou 4, soma parcial: 4
+Thread 0 somou 1, soma parcial: 1
+Soma total: 10
+Thread Thread 01 somou  somou 1, soma parcial: 2, soma parcial: 12
+
+Thread 2 somou 3, soma parcial: 3
+Thread 3 somou 4, soma parcial: 4
+Soma total: 10
+Thread Thread 10 somou  somou 21, soma parcial: , soma parcial: 21
+Thread 
+Thread 2 somou 3, soma parcial: 3
+3 somou 4, soma parcial: 4
+Soma total: 10

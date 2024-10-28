@@ -1,26 +1,20 @@
-#include <mpi.h>
 #include <iostream>
-#include <sstream>
+#include <omp.h>
 
-int main(int argc, char** argv) {
-    MPI_Init(&argc, &argv);
+int main() {
+    const int num_threads = 4;
 
-    int rank, size;
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    MPI_Comm_size(MPI_COMM_WORLD, &size);
-
-    if (rank == 0) {
-        for (int i = 1; i < size; ++i) {
-            std::ostringstream mensagem;
-            mensagem << "Mensagem para o processo " << i;
-            MPI_Send(mensagem.str().c_str(), mensagem.str().size() + 1, MPI_CHAR, i, 0, MPI_COMM_WORLD);
+    #pragma omp parallel num_threads(num_threads)
+    {
+        int tid = omp_get_thread_num();
+        if (tid == 0) {
+            for (int i = 1; i < num_threads; i++) {
+                std::cout << "Thread 0 enviando mensagem para Thread " << i << std::endl;
+            }
+        } else {
+            #pragma omp barrier
+            std::cout << "Thread " << tid << " recebeu mensagem da Thread 0" << std::endl;
         }
-    } else {
-        char mensagem[100];
-        MPI_Recv(mensagem, 100, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-        std::cout << "Processo " << rank << " recebeu: " << mensagem << std::endl;
     }
-
-    MPI_Finalize();
     return 0;
 }

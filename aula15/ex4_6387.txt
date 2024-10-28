@@ -1,0 +1,12 @@
+Thread 0 enviando mensagem para Thread 1
+Thread 0 enviando mensagem para Thread 2
+Thread 0 enviando mensagem para Thread 3
+Thread 0 enviando mensagem para Thread 1
+Thread 0 enviando mensagem para Thread 2
+Thread 0 enviando mensagem para Thread 3
+Thread 0 enviando mensagem para Thread 1
+Thread 0 enviando mensagem para Thread 2
+Thread 0 enviando mensagem para Thread 3
+Thread 0 enviando mensagem para Thread 1
+Thread 0 enviando mensagem para Thread 2
+Thread 0 enviando mensagem para Thread 3

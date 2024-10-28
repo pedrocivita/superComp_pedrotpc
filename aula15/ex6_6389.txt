@@ -1,0 +1,24 @@
+Thread 0 enviando mensagem para Thread 1
+Thread 1 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 2
+Thread 2 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 3
+Thread 3 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 1
+Thread 1 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 2
+Thread 2 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 3
+Thread 3 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 1
+Thread 1 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 2
+Thread 2 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 3
+Thread 3 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 1
+Thread 1 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 2
+Thread 2 respondeu à Thread 0
+Thread 0 enviando mensagem para Thread 3
+Thread 3 respondeu à Thread 0

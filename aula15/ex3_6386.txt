@@ -1,0 +1,16 @@
+Thread 0 iniciou a mensagem com valor: 1
+Thread 1 recebeu mensagem: 2
+Thread 3 recebeu mensagem: 5
+Thread 2 recebeu mensagem: 7
+Thread 0 iniciou a mensagem com valor: 1
+Thread 3 recebeu mensagem: 4
+Thread 2Thread  recebeu mensagem: 1 recebeu mensagem: 5
+5
+Thread 0 iniciou a mensagem com valor: 1
+Thread 1 recebeu mensagem: 2
+Thread 3 recebeu mensagem: 5
+Thread 2 recebeu mensagem: 7
+Thread 0 iniciou a mensagem com valor: 1
+Thread 1 recebeu mensagem: 2
+Thread 2 recebeu mensagem: 4
+Thread 3 recebeu mensagem: 7
