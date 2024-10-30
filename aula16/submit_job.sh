@@ -8,10 +8,10 @@
 #SBATCH --partition=espec           # Partição utilizada
 
 # Compila cada exercício
-mpic++ ex1.cpp -o ex1
-mpic++ ex2.cpp -o ex2
-mpic++ ex3.cpp -o ex3
-mpic++ ex4.cpp -o ex4
+# mpic++ ex1.cpp -o ex1
+# mpic++ ex2.cpp -o ex2
+# mpic++ ex3.cpp -o ex3
+# mpic++ ex4.cpp -o ex4
 
 # Executa cada exercício e grava a saída em um arquivo separado
 mpirun -np 4 ./ex1 > output_ex1_$SLURM_JOB_ID.txt

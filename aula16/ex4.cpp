@@ -3,6 +3,7 @@
 #include <vector>
 #include <numeric>
 #include <cmath>
+#include <algorithm>
 
 int main(int argc, char** argv) {
     MPI_Init(&argc, &argv);

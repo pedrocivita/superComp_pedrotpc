@@ -1,0 +1,4 @@
+Processo 0 realizou 5000 iterações com resultado 0
+Processo 1 realizou 5000 iterações com resultado 5000
+Processo 3 realizou 5000 iterações com resultado 15000
+Processo 2 realizou 5000 iterações com resultado 10000
