@@ -1,0 +1,1 @@
+Calculo completo do quadrado de cada elemento.

@@ -1,0 +1,1 @@
+Cálculo completo com MPI_Scatterv.
