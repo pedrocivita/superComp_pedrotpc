@@ -1,0 +1,6 @@
+Contagem total de bases:
+A: 763517118
+T: 764606176
+C: 511685713
+G: 511971484
+Tempo total de execução: 62.0935 segundos.

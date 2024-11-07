@@ -1,0 +1,26 @@
+Processo 3: transcrição do cromossomo 4 concluída.
+Processo 2: transcrição do cromossomo 3 concluída.
+Processo 1: transcrição do cromossomo 2 concluída.
+Processo 0: transcrição do cromossomo 1 concluída.
+Processo 3: transcrição do cromossomo 8 concluída.
+Processo 2: transcrição do cromossomo 7 concluída.
+Processo 3: transcrição do cromossomo 12 concluída.
+Processo 2: transcrição do cromossomo 11 concluída.
+Processo 3: transcrição do cromossomo 16 concluída.
+Processo 1: transcrição do cromossomo 6 concluída.
+Processo 0: transcrição do cromossomo 5 concluída.
+Processo 3: transcrição do cromossomo 20 concluída.
+Processo 3: tempo de execução = 32.8954 segundos.
+Processo 2: transcrição do cromossomo 15 concluída.
+Processo 2: transcrição do cromossomo 19 concluída.
+Processo 2: tempo de execução = 38.1395 segundos.
+Processo 1: transcrição do cromossomo 10 concluída.
+Processo 0: transcrição do cromossomo 9 concluída.
+Processo 1: transcrição do cromossomo 14 concluída.
+Processo 0: transcrição do cromossomo 13 concluída.
+Processo 1: transcrição do cromossomo 18 concluída.
+Processo 0: transcrição do cromossomo 17 concluída.
+Processo 0: transcrição do cromossomo 21 concluída.
+Processo 0: tempo de execução = 49.1387 segundos.
+Processo 1: transcrição do cromossomo 22 concluída.
+Processo 1: tempo de execução = 49.1721 segundos.
