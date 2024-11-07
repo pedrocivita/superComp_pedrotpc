@@ -1,4 +1,6 @@
-# Relatório Final do Projeto de Bioinformática
+# Relatório Final - Projeto de Bioinformática - Supercomputação
+## Pedro Toledo Piza Civita - pedrotpc@al.insper.edu.br
+---
 
 ## Introdução
 
@@ -295,7 +297,6 @@ O projeto demonstrou a eficácia da paralelização em bioinformática para o pr
 
 - **OpenMPI Documentation:** [https://www.open-mpi.org/doc/](https://www.open-mpi.org/doc/)
 - **OpenMP Documentation:** [https://www.openmp.org/specifications/](https://www.openmp.org/specifications/)
-- **Genoma Humano:** Material de referência sobre sequências genômicas e estrutura do DNA.
 
 ---
 
@@ -305,17 +306,11 @@ O projeto demonstrou a eficácia da paralelização em bioinformática para o pr
 
 #### Gráfico de Frequência de Bases
 
-![Gráfico de Frequência de Bases](frequencia_bases.png)
+![Gráfico de Frequência de Bases](img/frequencia_bases.png)
 
 #### Gráfico de Tempos de Execução
 
-![Gráfico de Tempos de Execução](tempos_execucao.png)
-
----
-
-## Agradecimentos
-
-Agradeço à equipe e aos colegas que contribuíram para a realização deste projeto, fornecendo suporte técnico e recursos computacionais necessários para a execução das tarefas.
+![Gráfico de Tempos de Execução](img/tempos_execucao.png)
 
 ---
 
@@ -343,7 +338,4 @@ Os resultados obtidos evidenciam a importância do balanceamento de carga e da c
 
 **Obrigado pela atenção!**
 
----
-
-Se tiver mais alguma dúvida ou precisar de assistência adicional, estou à disposição.
 ---
