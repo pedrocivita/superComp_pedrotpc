@@ -3,53 +3,91 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <set>
 #include <algorithm>
 #include <chrono>
 #include <omp.h>
 
-std::vector<std::vector<int>> LerGrafo(const std::string& nomeArquivo, int& numVertices) {
+const int MAX_DEPTH = 1000;  // Limite de profundidade para evitar recursão infinita
+
+std::vector<std::vector<int>> LerGrafoListaAdj(const std::string& nomeArquivo, int& numVertices) {
     std::ifstream arquivo(nomeArquivo);
+    if (!arquivo.is_open()) {
+        std::cerr << "Erro ao abrir o arquivo " << nomeArquivo << std::endl;
+        exit(1);
+    }
+
     int numArestas;
     arquivo >> numVertices >> numArestas;
 
-    std::vector<std::vector<int>> grafo(numVertices, std::vector<int>(numVertices, 0));
+    std::cout << "Número de vértices: " << numVertices << std::endl;
+    std::cout << "Número de arestas: " << numArestas << std::endl;
 
-    for (int i = 0; i < numArestas; ++i) {
-        int u, v;
-        arquivo >> u >> v;
-        grafo[u - 1][v - 1] = 1;
-        grafo[v - 1][u - 1] = 1;  // O grafo é não direcionado
+    std::vector<std::vector<int>> grafo(numVertices);
+
+    int u, v;
+    while (arquivo >> u >> v) {
+        if (u < 1 || v < 1 || u > numVertices || v > numVertices) {
+            std::cerr << "Aresta inválida: " << u << " - " << v << std::endl;
+            continue;
+        }
+        grafo[u - 1].push_back(v - 1);
+        grafo[v - 1].push_back(u - 1);  // Grafo não direcionado
     }
 
     arquivo.close();
     return grafo;
 }
 
-void BronKerboschParallel(std::vector<std::vector<int>>& grafo,
-                          std::vector<int> R,
-                          std::vector<int> P,
-                          std::vector<int> X,
-                          std::vector<int>& cliqueMaxima) {
+void BronKerboschPivotParallel(std::vector<std::vector<int>>& grafo,
+                               std::set<int> R,
+                               std::set<int> P,
+                               std::set<int> X,
+                               std::vector<int>& cliqueMaxima,
+                               int depth = 0) {
+    if (depth > MAX_DEPTH) {
+        return;
+    }
+
     if (P.empty() && X.empty()) {
         #pragma omp critical
         {
             if (R.size() > cliqueMaxima.size()) {
-                cliqueMaxima = R;
+                cliqueMaxima.assign(R.begin(), R.end());
             }
         }
         return;
     }
 
+    // Escolher pivô u a partir de P ∪ X
     int u = -1;
-    if (!P.empty()) {
-        u = P[0];
-    } else if (!X.empty()) {
-        u = X[0];
+    int maxGrau = -1;
+    std::set<int> unionPX;
+    unionPX.insert(P.begin(), P.end());
+    unionPX.insert(X.begin(), X.end());
+
+    if (!unionPX.empty()) {
+        for (int v : unionPX) {
+            if (v >= 0 && v < grafo.size()) {
+                int grau = grafo[v].size();
+                if (grau > maxGrau) {
+                    maxGrau = grau;
+                    u = v;
+                }
+            }
+        }
+    } else {
+        u = 0;  // Se P ∪ X estiver vazio, escolhemos um pivô arbitrário
     }
 
+    if (u == -1 || u >= grafo.size()) {
+        return;
+    }
+
+    // P \ N(u)
     std::vector<int> P_sem_Nu;
     for (int v : P) {
-        if (u == -1 || !grafo[u][v]) {
+        if (std::find(grafo[u].begin(), grafo[u].end(), v) == grafo[u].end()) {
             P_sem_Nu.push_back(v);
         }
     }
@@ -57,59 +95,71 @@ void BronKerboschParallel(std::vector<std::vector<int>>& grafo,
     #pragma omp parallel for schedule(dynamic)
     for (size_t i = 0; i < P_sem_Nu.size(); ++i) {
         int v = P_sem_Nu[i];
-        std::vector<int> R_v = R;
-        R_v.push_back(v);
+        std::set<int> R_v = R;
+        R_v.insert(v);
 
         // Intersecção de P e N(v)
-        std::vector<int> P_intersec;
-        for (int u2 : P) {
-            if (grafo[v][u2]) {
-                P_intersec.push_back(u2);
+        std::set<int> P_intersec;
+        for (int u2 : grafo[v]) {
+            if (P.find(u2) != P.end()) {
+                P_intersec.insert(u2);
             }
         }
 
         // Intersecção de X e N(v)
-        std::vector<int> X_intersec;
-        for (int u2 : X) {
-            if (grafo[v][u2]) {
-                X_intersec.push_back(u2);
+        std::set<int> X_intersec;
+        for (int u2 : grafo[v]) {
+            if (X.find(u2) != X.end()) {
+                X_intersec.insert(u2);
             }
         }
 
-        BronKerboschParallel(grafo, R_v, P_intersec, X_intersec, cliqueMaxima);
+        std::vector<int> cliqueMaximaLocal;
+
+        BronKerboschPivotParallel(grafo, R_v, P_intersec, X_intersec, cliqueMaximaLocal, depth + 1);
 
         #pragma omp critical
         {
-            // Remover v de P e adicionar em X
-            P.erase(std::remove(P.begin(), P.end(), v), P.end());
-            X.push_back(v);
+            if (cliqueMaximaLocal.size() > cliqueMaxima.size()) {
+                cliqueMaxima = cliqueMaximaLocal;
+            }
+        }
+
+        #pragma omp critical
+        {
+            P.erase(v);
+            X.insert(v);
         }
     }
 }
 
 int main() {
-    std::string nomeArquivo = "data/grafo.txt";
+    std::string nomeArquivo = "../data/grafo.txt";
     int numVertices;
-    std::vector<std::vector<int>> grafo = LerGrafo(nomeArquivo, numVertices);
+    std::vector<std::vector<int>> grafo = LerGrafoListaAdj(nomeArquivo, numVertices);
 
-    std::vector<int> R;
-    std::vector<int> P(numVertices);
-    std::vector<int> X;
+    std::set<int> R;
+    std::set<int> P;
+    std::set<int> X;
     std::vector<int> cliqueMaxima;
 
     // Inicializar P com todos os vértices
     for (int i = 0; i < numVertices; ++i) {
-        P[i] = i;
+        P.insert(i);
     }
 
     auto inicio = std::chrono::high_resolution_clock::now();
-    BronKerboschParallel(grafo, R, P, X, cliqueMaxima);
+    BronKerboschPivotParallel(grafo, R, P, X, cliqueMaxima);
     auto fim = std::chrono::high_resolution_clock::now();
 
     std::chrono::duration<double> duracao = fim - inicio;
 
-    std::cout << "Tamanho da clique máxima: " << cliqueMaxima.size() << std::endl;
-    std::cout << "Vértices da clique máxima: ";
+    // Ordenar a clique máxima para exibição consistente
+    std::sort(cliqueMaxima.begin(), cliqueMaxima.end());
+
+    std::cout << "\nClique máxima encontrada:" << std::endl;
+    std::cout << "Tamanho: " << cliqueMaxima.size() << std::endl;
+    std::cout << "Vértices: ";
     for (int v : cliqueMaxima) {
         std::cout << v + 1 << " ";  // Ajuste para índices começando em 1
     }

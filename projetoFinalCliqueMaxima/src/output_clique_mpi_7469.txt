@@ -1,0 +1,7 @@
+Número de vértices: 100
+Número de arestas: 3453
+
+Clique máxima encontrada:
+Tamanho: 15
+Vértices: 3 10 13 30 34 50 54 65 69 72 75 83 84 89 96 
+Tempo de execução: 40.7191 segundos.
