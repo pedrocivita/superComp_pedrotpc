@@ -14,7 +14,7 @@
 # mpic++ ex4.cpp -o ex4
 
 # Executa cada exercício e grava a saída em um arquivo separado
-mpirun -np 4 ./ex1 > output_ex1_$SLURM_JOB_ID.txt
-mpirun -np 4 ./ex2 > output_ex2_$SLURM_JOB_ID.txt
-mpirun -np 4 ./ex3 > output_ex3_$SLURM_JOB_ID.txt
+# mpirun -np 4 ./ex1 > output_ex1_$SLURM_JOB_ID.txt
+# mpirun -np 4 ./ex2 > output_ex2_$SLURM_JOB_ID.txt
+# mpirun -np 4 ./ex3 > output_ex3_$SLURM_JOB_ID.txt
 mpirun -np 4 ./ex4 > output_ex4_$SLURM_JOB_ID.txt

@@ -112,20 +112,36 @@ Contar quantas proteínas são potencialmente iniciadas em cada sequência de RN
 
 **Objetivo:**
 
-Traduzir as sequências de RNA em proteínas até encontrar um códon de parada.
+Traduzir as sequências de RNA em proteínas até encontrar um códon de parada, utilizando a tabela de códons fornecida.
+
+**Tabela de Códons e Aminoácidos Correspondentes:**
+
+| Códon (RNAm)       | Aminoácido         | Número |
+|--------------------|--------------------|--------|
+| AUG                | Metionina (Início) |   1    |
+| CCA, CCG, CCU, CCC | Prolina            |   2    |
+| UCU, UCA, UCG, UCC | Serina             |   3    |
+| CAG, CAA           | Glutamina          |   4    |
+| ACA, ACC, ACU, ACG | Treonina           |   5    |
+| UGC, UGU           | Cisteína           |   6    |
+| GUG, GUA, GUC, GUU | Valina             |   7    |
+| UGA                | **Códon STOP**     |   0    |
 
 **Metodologia:**
 
 - **Versão Paralela (MPI e OpenMP):**
-  - MPI para distribuir as sequências.
-  - OpenMP para paralelizar a tradução.
+  - MPI para distribuir as sequências de RNA dos cromossomos entre processos.
+  - OpenMP para paralelizar a tradução dos códons em aminoácidos.
 
 **Implementação:**
 
-- **Tabela de Códons:**
-  - Mapeamento de códons para aminoácidos (necessita ser completado).
+- **Tradução da Sequência:**
+  - Iniciar a tradução ao encontrar o códon de início **AUG**.
+  - Traduzir cada códon subsequente utilizando a tabela de códons.
+  - Interromper a tradução ao encontrar o códon de parada **UGA**.
 - **Paralelização:**
-  - Divisão das sequências entre processos e threads.
+  - Divisão da sequência de RNA em segmentos para processamento paralelo com OpenMP.
+  - Sincronização adequada para evitar condições de corrida.
 
 ---
 
@@ -170,12 +186,23 @@ Tempo total de execução: 26.2817 segundos.
 
 **Saída:**
 
-- A maioria dos cromossomos resultou em "Proteína traduzida: Fim", indicando que o códon de parada foi encontrado imediatamente ou que não foi possível realizar a tradução completa.
+- As sequências de RNA foram traduzidas em proteínas, representadas por números conforme a tabela de códons.
+- Exemplos de saídas por processo:
+
+```
+Processo 0, Cromossomo 1, Proteína traduzida: 1-7-2-3-Fim
+Processo 1, Cromossomo 2, Proteína traduzida: 1-3-6-5-7-5-5-2-7-2-1-3-4-7-5-3-5-7-6-7-3-7-3-2-3-2-7-7-7-5-7-2-Fim
+Processo 2, Cromossomo 3, Proteína traduzida: 1-5-Fim
+Processo 3, Cromossomo 4, Proteína traduzida: 1-5-5-7-2-2-5-7-7-5-3-Fim
+...
+Processo 0: tempo de execução = 37.7468 segundos.
+Processo 1: tempo de execução = 39.0704 segundos.
+Processo 2: tempo de execução = 39.1777 segundos.
+Processo 3: tempo de execução = 34.127 segundos.
+```
+
 - **Tempos de execução:**
-  - Processo 0: 0.625092 segundos
-  - Processo 1: 0.614224 segundos
-  - Processo 2: 0.531809 segundos
-  - Processo 3: 0.470894 segundos
+  - Os tempos variaram entre aproximadamente 34 e 39 segundos entre os processos.
 
 ---
 
@@ -188,12 +215,11 @@ Com base nos resultados obtidos, atualizamos a tabela de tempos de execução:
 | 1. Análise de Frequência de Bases       | 62.09                 |
 | 2. Transcrição de DNA em RNA            | 49.17 (máximo)        |
 | 3. Contagem de Inícios de Proteínas     | 26.28                 |
-| 4. Tradução de RNA em Proteínas         | 0.63 (máximo)         |
+| 4. Tradução de RNA em Proteínas         | 39.18 (máximo)        |
 
 **Observação:**
 
-- Para o exercício 2, consideramos o tempo máximo entre os processos, já que o programa finaliza quando todos os processos concluem.
-- O mesmo se aplica ao exercício 4.
+- Para o exercício 4, consideramos o tempo máximo entre os processos, já que o programa finaliza quando todos os processos concluem.
 
 ### Gráficos
 
@@ -239,16 +265,20 @@ Com base nos resultados obtidos, atualizamos a tabela de tempos de execução:
 ### Contagem de Inícios de Proteínas (AUG)
 
 - **Número de Códons de Início:**
-  - Foram identificados mais de 25 milhões de ocorrências do códon **AUG**.
+  - Foram identificadas mais de 25 milhões de ocorrências do códon **AUG**.
 - **Tempo de Execução:**
   - O tempo total de aproximadamente 26 segundos demonstra a eficiência do programa paralelo.
 
 ### Tradução de RNA em Proteínas
 
 - **Resultados da Tradução:**
-  - A maioria das traduções resultou em "Proteína traduzida: Fim", sugerindo que um códon de parada foi encontrado rapidamente ou que a tabela de códons não estava completa.
+  - Com a tabela de códons atualizada, foi possível traduzir as sequências de RNA em proteínas de forma adequada.
+  - As sequências de aminoácidos traduzidas variam em comprimento, dependendo do número de códons traduzidos antes de encontrar o códon de parada.
 - **Tempo de Execução:**
-  - O tempo muito baixo (menos de 1 segundo) indica que o processamento foi rápido, possivelmente devido à tradução limitada realizada.
+  - O tempo de execução aumentou em relação à versão anterior devido à complexidade adicional da tradução completa.
+  - Os tempos variaram entre aproximadamente 34 e 39 segundos, demonstrando um desempenho consistente entre os processos.
+- **Análise Biológica:**
+  - A tradução correta das sequências permite futuras análises biológicas, como identificação de proteínas e estudos de mutações.
 
 ---
 
@@ -260,15 +290,17 @@ Com base nos resultados obtidos, atualizamos a tabela de tempos de execução:
   - A paralelização reduziu significativamente os tempos de execução, tornando o processamento de grandes volumes de dados viável.
 - **Eficiência Computacional:**
   - O uso combinado de MPI e OpenMP permitiu aproveitar ao máximo os recursos computacionais disponíveis.
+- **Implementação Completa:**
+  - Com a tabela de códons atualizada, o programa realiza a tradução conforme o enunciado, permitindo análises mais profundas.
 
 ### Limitações e Desafios
 
 - **Balanceamento de Carga:**
   - A distribuição estática dos cromossomos causou desequilíbrios. Cromossomos maiores resultaram em tempos de execução mais longos para alguns processos.
-- **Implementação Incompleta:**
-  - No exercício 4, a tabela de códons não estava completa, o que afetou a tradução das proteínas.
-- **Análise Limitada:**
-  - A saída limitada dos programas, especialmente no exercício 4, dificultou uma análise mais aprofundada dos resultados biológicos.
+- **Tabela de Códons Simplificada:**
+  - A tabela de códons utilizada não contempla todos os 64 códons possíveis, limitando a tradução a um subconjunto de aminoácidos.
+- **Escalabilidade:**
+  - Para conjuntos de dados ainda maiores ou para utilização em sistemas com mais recursos, técnicas adicionais de otimização podem ser necessárias.
 
 ---
 
@@ -278,16 +310,19 @@ O projeto demonstrou a eficácia da paralelização em bioinformática para o pr
 
 **Principais Contribuições:**
 
-- Desenvolvimento de programas paralelos para tarefas comuns em bioinformática.
-- Processamento eficiente dos cromossomos humanos 1 a 22.
-- Identificação de áreas para melhorias futuras, como balanceamento de carga e completude das implementações.
+- **Implementação Completa dos Exercícios:**
+  - Todos os exercícios foram implementados conforme o enunciado, incluindo a tradução de RNA em proteínas com a tabela de códons fornecida.
+- **Análise de Dados Genômicos:**
+  - Processamento eficiente dos cromossomos humanos, fornecendo resultados relevantes para análises futuras.
+- **Desenvolvimento de Competências:**
+  - Aplicação prática de técnicas de paralelização e bioinformática.
 
 **Recomendações para Trabalhos Futuros:**
 
 - **Balanceamento Dinâmico de Carga:**
   - Implementar técnicas que distribuem as tarefas com base no tamanho dos cromossomos para equilibrar a carga entre os processos.
-- **Completar Implementações:**
-  - Finalizar a tabela de códons no exercício 4 para permitir uma tradução completa das sequências de RNA.
+- **Expansão da Tabela de Códons:**
+  - Incluir todos os códons e seus aminoácidos correspondentes para permitir uma tradução completa das sequências de RNA.
 - **Análises Biológicas Mais Profundas:**
   - Expandir as análises para extrair insights biológicos dos dados processados, como identificação de genes ou regiões de interesse.
 
@@ -297,6 +332,7 @@ O projeto demonstrou a eficácia da paralelização em bioinformática para o pr
 
 - **OpenMPI Documentation:** [https://www.open-mpi.org/doc/](https://www.open-mpi.org/doc/)
 - **OpenMP Documentation:** [https://www.openmp.org/specifications/](https://www.openmp.org/specifications/)
+- **Código Genético:** [https://en.wikipedia.org/wiki/Genetic_code](https://en.wikipedia.org/wiki/Genetic_code)
 
 ---
 
@@ -332,7 +368,7 @@ Os códigos fonte dos programas desenvolvidos estão anexados, incluindo:
 
 Este relatório detalha as etapas do projeto de bioinformática, desde a preparação dos dados até a análise dos resultados. A paralelização utilizando MPI e OpenMP mostrou-se eficaz para acelerar o processamento de grandes volumes de dados genômicos.
 
-Os resultados obtidos evidenciam a importância do balanceamento de carga e da completude das implementações para a obtenção de resultados mais precisos e análises mais aprofundadas.
+Os resultados obtidos evidenciam a importância do balanceamento de carga e da expansão da tabela de códons para a obtenção de resultados mais precisos e análises mais aprofundadas.
 
 ---
 

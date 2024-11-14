@@ -9,11 +9,20 @@
 // Mapeamento de códons para aminoácidos (representados por números)
 std::map<std::string, int> codon_table = {
     {"AUG", 1}, // Metionina (Início)
-    // Adicione todos os códons e seus respectivos aminoácidos
-    {"UUU", 2}, {"UUC", 2}, // Fenilalanina
-    {"UUA", 3}, {"UUG", 3}, // Leucina
-    // ...
-    {"UAA", 0}, {"UAG", 0}, {"UGA", 0} // Códores de parada
+    // Prolina
+    {"CCA", 2}, {"CCG", 2}, {"CCU", 2}, {"CCC", 2},
+    // Serina
+    {"UCU", 3}, {"UCA", 3}, {"UCG", 3}, {"UCC", 3},
+    // Glutamina
+    {"CAG", 4}, {"CAA", 4},
+    // Treonina
+    {"ACA", 5}, {"ACC", 5}, {"ACU", 5}, {"ACG", 5},
+    // Cisteína
+    {"UGC", 6}, {"UGU", 6},
+    // Valina
+    {"GUG", 7}, {"GUA", 7}, {"GUC", 7}, {"GUU", 7},
+    // Códon STOP
+    {"UGA", 0}
 };
 
 // Função para converter caracteres para maiúsculas
@@ -46,7 +55,7 @@ int main(int argc, char** argv) {
 
     // Processamento dos arquivos RNA atribuídos ao processo
     for (int crom : cromossomos_local) {
-        std::string filename = "chr" + std::to_string(crom) + "_rna.fa";
+        std::string filename = "../cromossomos/chr" + std::to_string(crom) + "_rna.fa";
         std::ifstream file(filename);
         if (!file.is_open()) {
             std::cerr << "Processo " << rank << ": erro ao abrir o arquivo " << filename << std::endl;
@@ -58,44 +67,64 @@ int main(int argc, char** argv) {
 
         while (std::getline(file, line)) {
             if (line.empty() || line[0] == '>') continue; // Ignora linhas de descrição
-            sequence += line;
+            for (char c : line) {
+                sequence += to_upper(c);
+            }
         }
         file.close();
 
         size_t seq_size = sequence.size();
         std::vector<int> proteina;
 
-        // Tradução utilizando OpenMP
+        // Variáveis de controle
+        bool inicio = false;
         bool stop_codon_found = false;
+        size_t seq_end = seq_size - seq_size % 3; // Evitar ultrapassar o tamanho da sequência
+
+        // Tradução utilizando OpenMP
         #pragma omp parallel
         {
             std::vector<int> proteina_thread;
+            bool local_inicio = false;
 
             #pragma omp for nowait
-            for (size_t i = 0; i <= seq_size - 3; i += 3) {
+            for (size_t i = 0; i <= seq_end - 3; i += 3) {
                 if (stop_codon_found) continue;
 
-                std::string codon = "";
-                codon += to_upper(sequence[i]);
-                codon += to_upper(sequence[i + 1]);
-                codon += to_upper(sequence[i + 2]);
+                std::string codon = sequence.substr(i, 3);
 
-                int aminoacido = 0;
-                if (codon_table.count(codon)) {
-                    aminoacido = codon_table[codon];
+                if (!inicio && !local_inicio) {
+                    if (codon == "AUG") {
+                        local_inicio = true;
+                        #pragma omp critical
+                        {
+                            inicio = true;
+                            proteina.push_back(codon_table[codon]);
+                        }
+                    }
+                    continue;
                 }
 
-                if (aminoacido == 0) { // Códon de parada
-                    stop_codon_found = true;
-                } else {
-                    proteina_thread.push_back(aminoacido);
+                if (local_inicio) {
+                    if (codon == "UGA") {
+                        #pragma omp atomic write
+                        stop_codon_found = true;
+                        continue;
+                    }
+
+                    if (codon_table.count(codon)) {
+                        int aminoacido = codon_table[codon];
+                        proteina_thread.push_back(aminoacido);
+                    }
                 }
             }
 
             // Combinar as proteínas traduzidas pelas threads
-            #pragma omp critical
-            {
-                proteina.insert(proteina.end(), proteina_thread.begin(), proteina_thread.end());
+            if (!proteina_thread.empty()) {
+                #pragma omp critical
+                {
+                    proteina.insert(proteina.end(), proteina_thread.begin(), proteina_thread.end());
+                }
             }
         }
 

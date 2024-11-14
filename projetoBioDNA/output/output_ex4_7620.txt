@@ -1,0 +1,26 @@
+Processo 0, Cromossomo 1, Proteína traduzida: 1-7-2-3-Fim
+Processo 3, Cromossomo 4, Proteína traduzida: 1-5-5-7-2-2-5-7-7-5-3-Fim
+Processo 1, Cromossomo 2, Proteína traduzida: 1-3-6-5-7-5-5-2-7-2-1-3-4-7-5-3-5-7-6-7-3-7-3-2-3-2-7-7-7-5-7-2-Fim
+Processo 2, Cromossomo 3, Proteína traduzida: 1-5-Fim
+Processo 0, Cromossomo 5, Proteína traduzida: 1-3-7-2-4-7-2-3-1-7-3-7-Fim
+Processo 3, Cromossomo 8, Proteína traduzida: 1-4-6-6-5-5-4-5-4-7-5-5-3-3-7-6-4-7-3-5-5-7-5-7-5-5-7-3-4-5-7-6-6-2-7-5-3-2-Fim
+Processo 1, Cromossomo 6, Proteína traduzida: 1-6-Fim
+Processo 3, Cromossomo 12, Proteína traduzida: 1-1-4-3-5-7-4-Fim
+Processo 0, Cromossomo 9, Proteína traduzida: 1-7-7-5-Fim
+Processo 2, Cromossomo 7, Proteína traduzida: 1-5-4-2-5-7-Fim
+Processo 3, Cromossomo 16, Proteína traduzida: 1-2-7-7-3-6-5-2-2-2-2-4-Fim
+Processo 1, Cromossomo 10, Proteína traduzida: 1-2-3-6-5-5-4-3-2-7-2-4-5-6-7-1-7-5-6-7-5-3-5-7-4-3-2-2-5-5-3-3-3-3-Fim
+Processo 3, Cromossomo 20, Proteína traduzida: 1-3-5-5-5-5-6-3-2-7-3-6-5-5-4-5-6-7-5-5-2-7-2-3-2-Fim
+Processo 3: tempo de execução = 34.127 segundos.
+Processo 0, Cromossomo 13, Proteína traduzida: 1-4-5-5-2-5-3-4-2-5-3-5-3-5-5-2-3-5-1-2-7-2-7-Fim
+Processo 2, Cromossomo 11, Proteína traduzida: 1-3-7-3-6-2-Fim
+Processo 1, Cromossomo 14, Proteína traduzida: 1-6-7-4-Fim
+Processo 0, Cromossomo 17, Proteína traduzida: 1-7-2-7-5-3-3-5-5-2-2-3-3-3-7-5-7-2-3-5-3-Fim
+Processo 0, Cromossomo 21, Proteína traduzida: 1-7-4-5-5-7-6-3-1-5-Fim
+Processo 0: tempo de execução = 37.7468 segundos.
+Processo 1, Cromossomo 18, Proteína traduzida: 1-7-7-7-1-Fim
+Processo 2, Cromossomo 15, Proteína traduzida: 1-3-4-7-5-Fim
+Processo 1, Cromossomo 22, Proteína traduzida: 1-7-1-3-7-5-4-2-7-Fim
+Processo 1: tempo de execução = 39.0704 segundos.
+Processo 2, Cromossomo 19, Proteína traduzida: 1-2-3-2-7-2-7-2-2-4-2-2-6-2-7-5-3-6-3-7-3-2-5-7-7-6-5-2-7-7-5-2-3-Fim
+Processo 2: tempo de execução = 39.1777 segundos.
