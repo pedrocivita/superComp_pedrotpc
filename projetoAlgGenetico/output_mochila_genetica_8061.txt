@@ -1,0 +1,63 @@
+Possíveis itens:
+Item	Peso	Valor
+1	7	13
+2	13	40
+3	1	61
+4	10	95
+5	11	40
+6	6	72
+7	14	83
+8	10	72
+9	13	64
+10	7	73
+11	2	4
+12	7	86
+13	15	46
+14	5	14
+15	7	79
+16	3	24
+17	15	98
+18	8	94
+19	12	6
+20	3	75
+21	8	66
+22	12	67
+23	9	66
+24	4	45
+25	13	32
+26	4	84
+27	15	13
+28	10	13
+29	10	75
+30	6	31
+31	14	100
+32	1	78
+33	15	88
+34	6	12
+35	13	38
+36	11	60
+37	12	12
+38	4	25
+39	6	90
+40	1	49
+
+Melhor solução encontrada:
+Item 3: Peso = 1, Valor = 61
+Item 4: Peso = 10, Valor = 95
+Item 6: Peso = 6, Valor = 72
+Item 11: Peso = 2, Valor = 4
+Item 15: Peso = 7, Valor = 79
+Item 16: Peso = 3, Valor = 24
+Item 18: Peso = 8, Valor = 94
+Item 20: Peso = 3, Valor = 75
+Item 22: Peso = 12, Valor = 67
+Item 24: Peso = 4, Valor = 45
+Item 25: Peso = 13, Valor = 32
+Item 29: Peso = 10, Valor = 75
+Item 31: Peso = 14, Valor = 100
+Item 32: Peso = 1, Valor = 78
+Item 38: Peso = 4, Valor = 25
+Item 40: Peso = 1, Valor = 49
+Peso total: 99
+Valor total: 975
+Tempo de execução: 0.0135435 segundos

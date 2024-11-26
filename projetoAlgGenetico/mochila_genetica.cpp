@@ -157,7 +157,7 @@ std::pair<std::vector<int>, std::vector<std::vector<int>>> optimize(
     int max_idx = std::distance(final_fitness.begin(), max_it);
     parameters = population[max_idx];
 
-    return {parameters, fitness_history};
+    return std::make_pair(parameters, fitness_history);
 }
 
 int main() {
@@ -183,8 +183,19 @@ int main() {
         }
     }
 
+    // Início da medição do tempo
+    auto start_time = std::chrono::high_resolution_clock::now();
+
     // Executa a otimização
-    auto [best_solution, fitness_history] = optimize(population, weights, values, KNAPSACK_CAPACITY);
+    std::pair<std::vector<int>, std::vector<std::vector<int>>> result = optimize(population, weights, values, KNAPSACK_CAPACITY);
+    std::vector<int> best_solution = result.first;
+    std::vector<std::vector<int>> fitness_history = result.second;
+
+    // Fim da medição do tempo
+    auto end_time = std::chrono::high_resolution_clock::now();
+
+    // Calcula a duração
+    std::chrono::duration<double> duration = end_time - start_time;
 
     // Exibe os resultados
     std::cout << "\nMelhor solução encontrada:\n";
@@ -198,8 +209,19 @@ int main() {
             total_value += values[i];
         }
     }
-    std::cout << "Peso total: " << total_weight << "\n";
-    std::cout << "Valor total: " << total_value << "\n";
+
+    // Verifica se a solução é válida (peso total não excede a capacidade)
+    if (total_weight <= KNAPSACK_CAPACITY) {
+        std::cout << "Peso total: " << total_weight << "\n";
+        std::cout << "Valor total: " << total_value << "\n";
+    } else {
+        std::cout << "Solução inválida: o peso total excede a capacidade da mochila.\n";
+        std::cout << "Peso total: " << total_weight << " (Capacidade máxima: " << KNAPSACK_CAPACITY << ")\n";
+        std::cout << "Valor total: " << total_value << "\n";
+    }
+
+    // Exibe o tempo de execução
+    std::cout << "Tempo de execução: " << duration.count() << " segundos\n";
 
     return 0;
 }
