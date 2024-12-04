@@ -1,0 +1,38 @@
+Parte A
+
+Paralelismo é a execução simultânea de múltiplas operações ou tarefas utilizando vários
+processadores ou núcleos. No processamento sequencial, as tarefas são realizadas uma após a outra;
+no paralelismo, dividimos o trabalho em partes menores que podem ser processadas ao mesmo tempo,
+acelerando a execução.
+
+A escalabilidade refere-se à capacidade de um sistema ou algoritmo de aproveitar recursos adicionais
+para melhorar o desempenho. Em paralelismo, um programa é escalável se consegue utilizar eficientemente
+um número crescente de processadores para reduzir o tempo total de execução. Ou seja, quanto mais recursos
+adicionamos, mais rápido o programa deve executar, desde que o trabalho possa ser dividido adequadamente.
+
+Parte B
+
+O balanceamento de carga em computação paralela é a distribuição equitativa do trabalho
+entre todos os processadores ou núcleos disponíveis. É importante porque garante que nenhum
+processador fique sobrecarregado ou ocioso, evitando ineficiências e tempos de execução maiores.
+
+Técnicas para alcançar um balanceamento efetivo incluem:
+
+- Divisão Estática de Tarefas: Distribuir o trabalho de forma pré-definida
+e igual entre os processadores. Funciona bem quando as tarefas têm tempos de execução 
+previsíveis.
+
+- Escalonamento Dinâmico: Atribuir tarefas aos processadores conforme eles ficam disponíveis.
+Se um processador termina sua tarefa, recebe outra, garantindo que todos estejam sempre ocupados.
+
+- Work Stealing: Processadores ociosos podem "roubar" tarefas de processadores mais ocupados,
+equilibrando a carga dinamicamente.
+
+- Ajuste de Granularidade: Dividir o trabalho em tarefas menores para permitir uma distribuição
+mais flexível e facilitar o balanceamento.
+
+- Monitoramento e Feedback: Utilizar ferramentas que monitoram a carga em tempo real e ajustam a
+distribuição conforme necessário.
+
+Um balanceamento de carga eficiente melhora o desempenho e aumenta a escalabilidade do sistema,
+permitindo que programas paralelos utilizem ao máximo os recursos disponíveis.

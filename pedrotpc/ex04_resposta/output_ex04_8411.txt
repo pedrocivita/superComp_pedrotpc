@@ -1,0 +1,6 @@
+Rank 1 - Tempo de cálculo local: 0.000670945 segundos.
+Rank 2 - Tempo de cálculo local: 0.00044284 segundos.
+Rank 0 - Tempo de cálculo local: 0.000554966 segundos.
+Média total das linhas: 0.500147
+Tempo de cálculo total no processo raiz: 2.6038e-05 segundos.
+Rank 3 - Tempo de cálculo local: 0.000527634 segundos.
