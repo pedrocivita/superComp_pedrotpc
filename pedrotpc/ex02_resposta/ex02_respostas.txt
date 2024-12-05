@@ -1,0 +1,15 @@
+a)
+Fatorial de 10 é 3628800
+
+b)
+0.182574 0.365148 0.547723 0.730297
+
+c)
+2 4 6 
+8 10 12 
+14 16 18 
+
+d)
+Sum of vector elements: 6
+Sum of vector elements: 15
+Sum of vector elements: 24

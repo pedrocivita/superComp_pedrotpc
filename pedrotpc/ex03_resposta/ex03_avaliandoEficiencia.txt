@@ -1,0 +1,24 @@
+Análise de Eficiência do Paralelismo Aplicado
+
+Interpretação dos Resultados em output_ex03_8317.txt:
+
+- Eficiência do Paralelismo de Tarefas:
+  - O tempo total é aproximadamente igual ao maior tempo individual das funções.
+  - Indica que as funções foram executadas simultaneamente.
+  - Se fossem executadas sequencialmente, o tempo total seria a soma dos tempos individuais (~0.0054 segundos).
+
+- Eficiência do Paralelismo de Dados:
+  - Cada função processa um vetor com **1.000.000** elementos.
+  - A paralelização interna reduziu significativamente o tempo de processamento.
+  - O uso de reduções garantiu a correta agregação dos resultados parciais.
+
+Considerações Sobre Overhead:
+
+- O overhead de gerenciamento de threads é mínimo comparado ao ganho em desempenho.
+- O tamanho do dataset é suficientemente grande para justificar o paralelismo.
+
+Conclusão:
+
+- Paralelismo Efetivo: A combinação de paralelismo de tarefas e de dados foi eficiente.
+- Desempenho Otimizado: O tempo total de execução foi reduzido significativamente.
+- Escalabilidade: O código pode escalar bem com o aumento do número de threads ou dados.

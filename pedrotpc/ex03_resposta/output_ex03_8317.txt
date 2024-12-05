@@ -1,0 +1,7 @@
+Tempo para encontrar o máximo: 0.00128337 segundos.
+Tempo para calcular a média: 0.00193155 segundos.
+Tempo para calcular o produto: 0.00219188 segundos.
+Média: 1
+Máximo: 1
+Produto: 2.71828
+Tempo total de execução: 0.00236204 segundos.
