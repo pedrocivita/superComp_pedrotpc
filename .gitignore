@@ -1,3 +1,54 @@
 # Ignora a pasta cromossomos e todo o seu conteúdo
 projetoBioDNA/cromossomos/
 # projetoFinalCliqueMaxima/data/
+
+# Build outputs (rebuild from the .cpp sources)
+*.o
+*.exe
+*.zip
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Compiled binaries without an extension
+/aula03pt2/ex1
+/aula03pt2/ex2
+/aula03pt2/ex3
+/aula03pt2/ex4
+/aula06/mochila
+/aula07/mochila
+/aula07/mochilaAleatoria
+/aula07/mochilaProbabilidade
+/aula08/mochilaHill
+/aula09/mais_leve
+/aula14/parte1
+/aula14/parte2
+/aula14/parte3
+/aula15/ex1
+/aula15/ex2
+/aula15/ex3
+/aula15/ex4
+/aula15/ex5
+/aula15/ex6
+/aula16/ex1
+/aula16/ex2
+/aula16/ex3
+/aula16/ex4
+/aula17/ex1
+/aula17/ex2
+/aula17/ex3
+/aula17/ex4
+/pedrotpcFinal/ex02_resposta/ex02a
+/pedrotpcFinal/ex02_resposta/ex02b
+/pedrotpcFinal/ex02_resposta/ex02c
+/pedrotpcFinal/ex02_resposta/ex02d
+/pedrotpcFinal/ex03_resposta/ex03
+/pedrotpcFinal/ex04_resposta/ex04
+/projetoAlgGenetico/mochila_genetica
+/projetoBioDNA/exercicios/ex1
+/projetoBioDNA/exercicios/ex2
+/projetoBioDNA/exercicios/ex3
+/projetoBioDNA/exercicios/ex4
+/projetoFinalCliqueMaxima/src/exaustiva/clique_exaustiva
+/projetoFinalCliqueMaxima/src/openmp/clique_mpi
+/projetoFinalCliqueMaxima/src/openmp/clique_openmp
